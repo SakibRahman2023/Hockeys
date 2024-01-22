@@ -21,7 +21,7 @@
     </style>
 </head>
 
-<body class="manrope mx-auto my-14 lg:mx-32 ">
+<body class="manrope my-14 lg:mx-32 max-w-[1440px]">
     <header>
         <!-- navber section -->
         <nav>
@@ -59,8 +59,45 @@
                 </div>
             </div>
         </nav>
-        <!-- slider section -->
-        
+        <!-- slider or Carousel section -->
+        <section class="my-12 px-5">
+            <div class="carousel w-full">
+                <!-- slide1 -->
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img src="Images/1.png" class="w-full" />
+                    <div class="absolute flex lg:gap-6  transform -translate-y-1/2 left-5 bottom-4">
+                        <a href="#slide4" class="btn btn-circle bg-black text-white">❮</a>
+                        <a href="#slide2" class="btn btn-circle bg-black text-white">❯</a>
+                    </div>
+                </div>
+                <!-- slide2 -->
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="Images/2.png" class="w-full" />
+                    <div class="absolute flex lg:gap-6  transform -translate-y-1/2 left-5 bottom-4">
+                        <a href="#slide1" class="btn btn-circle bg-black text-white">❮</a>
+                        <a href="#slide3" class="btn btn-circle bg-black text-white">❯</a>
+                    </div>
+                </div>
+                <!-- slide3 -->
+                <div id="slide3" class="carousel-item relative w-full">
+                    <img src="Images/3.png" class="w-full" />
+                    <div class="absolute flex lg:gap-6  transform -translate-y-1/2 left-5 bottom-4">
+                        <a href="#slide2" class="btn btn-circle bg-black text-white">❮</a>
+                        <a href="#slide4" class="btn btn-circle bg-black text-white">❯</a>
+                    </div>
+                </div>
+                <!-- slide4 -->
+                <div id="slide4" class="carousel-item relative w-full">
+                    <img src="Images/4.png" class="w-full" />
+                    <div class="absolute flex lg:gap-6  transform -translate-y-1/2 left-5 bottom-4">
+                        <a href="#slide3" class="btn btn-circle bg-black text-white">❮</a>
+                        <a href="#slide1" class="btn btn-circle bg-black text-white">❯</a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
 
     </header>
     <main>
